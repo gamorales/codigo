@@ -1,0 +1,10 @@
+import os
+
+class Config(object):
+	SECRET_KEY = 'SECRET_KEY'
+	PAGE_ACCESS_TOKEN = 'EAADihQPLqw0BAAZCRX8tD4ssrI35iKFVjUOYTCDOJZAZCUF4lzChjrwCEhMA1uMlmspu4jaxOGo8ZCGXzq2rEZCVV4L8CbwmJZAlfpUFrN3IDM54ZBfIZAwIQe8STi2ZAZCIJWjRWGlnANwdbv4zIeY5RhZBa9tpkY2oDrbf0DPpW5rYhjxkHfUBItF'
+	USER_GEONAMES = os.environ.get('USER_GEONAMES')
+
+class DevelopmentConfig(Config):
+	DEBUG = True
+	

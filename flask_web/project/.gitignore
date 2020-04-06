@@ -1,0 +1,5 @@
+# Ignore enviromental folder
+./env
+
+# Ignore migrations
+./migrations
