@@ -1,2 +1,2 @@
 for _ in range(10):
-    print("lerolero")
+    print(_)
