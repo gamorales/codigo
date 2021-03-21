@@ -1,2 +1,2 @@
-
-print("lerolero")
+for _ in range(10):
+    print("lerolero")
