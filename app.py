@@ -1,5 +1,7 @@
 import os
 
+print(os.close())
+
 
 segundos=int(input("Escriba una cantidad de segundos"))
 horas=segundos//3600
