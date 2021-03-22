@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2>Hola {{ username }} </h2> {# variable #}
+    <p>
+      Te encuentras en el curso {{ course_name }}
+    </p>
+
+    {% if is_premium %}
+      <p>
+        El curso es premium.
+      </p>
+    {% else %}
+      <p>
+        El curso es gratuito para todo el mundo.
+      </p>
+    {% endif %}
+
+    {% if courses %}
+      <p>Listado de cursos :</p>
+      <ul>
+        {% for course in courses %}
+          <li> {{ course }} </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+{% endblock %}
