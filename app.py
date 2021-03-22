@@ -1,5 +1,3 @@
-import os
-
 segundos=int(input("Escriba una cantidad de segundos"))
 horas=segundos//3600
 sobrante1=segundos%3600
